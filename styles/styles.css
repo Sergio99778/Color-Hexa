@@ -1,12 +1,28 @@
+html {
+    font-size: 62.5%;
+}
+
 .body__title {
+    letter-spacing: 1;
+    font-size: 2.8rem;
     text-align: center;
     font-family: 'Anton', sans-serif;
+    margin-bottom: 10px;
 }
 .salida {
+    font-family: font-family: 'Anton', sans-serif;;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     text-transform: uppercase;
-    text-align: center;
     font-weight: bold;
+    border: 1px solid black;
+    height: 8rem;
+    width: 16rem;
 }
 .container--color {
+    margin-top: 10px;
     text-align: center;
 }
