@@ -1,3 +1,12 @@
 .body__title {
+    text-align: center;
     font-family: 'Anton', sans-serif;
+}
+.salida {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.container--color {
+    text-align: center;
 }
