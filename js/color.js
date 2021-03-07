@@ -1,3 +1,6 @@
-const color = document.querySelector('#color');
-
-console.log(color);
+const color = document.querySelector("#color");
+const salida = document.querySelector("#salida");
+color.addEventListener("input", () => {
+    const value = color.value;
+    salida.innerHTML = value;
+})
